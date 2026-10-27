@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirby Shop - Login / Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Kirby Shop</a>
+        <nav>
+            <a href="index.html">Volver a Inicio</a>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h2 style="margin-top: 0; color:rosybrown;">Iniciar Sesion</h2>
+        <form action="index.html">
+            <label for="email_login">Correo electronico:</label>
+            <input type="email" id="email_login" name="email_login" placeholder="ejemplo@correo.com" required>
+
+            <label for="pass_login">Contraseña:</label>
+            <input type="password" id="pass_login" name="pass_login" placeholder="Tu contraseña" required>
+
+            <button type="submit" class="btn-submit">Entrar a mi cuenta</button>
+        </form>
+        
+        <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ccc;">
+
+        <h2 style="margin-top: 0; color:rosybrown;">¿Eres nuevo? Registrate</h2>
+        <form action="index.html">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email_reg">Correo electrónico:</label>
+            <input type="email" id="email_reg" name="email_reg" placeholder="ejemplo@correo.com" required>
+
+            <label for="pass_reg">Crea una contraseña:</label>
+            <input type="password" id="pass_reg" name="pass_reg" placeholder="Minimo 8 caracteres" required>
+
+            <button type="submit" class="btn-submit" style="background-color: #fb90ff; color: #0b1528;">Crear Cuenta</button>
+        </form>
+    </div>
+
+    <footer>
+        <p> 2026 Kirby Shop - Manuel Hector Muñiz Garcia - 5-I </p>
+    </footer>
+</body>
